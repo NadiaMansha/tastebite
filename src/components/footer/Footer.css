@@ -1,0 +1,117 @@
+.tastebite_footer {
+  background: #e8e8e8;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: column;
+}
+.tastebite_footer_top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+}
+.tastebite_footer_left img {
+  width: 100px;
+}
+
+.tastebite_footer_left p {
+  font-size: 14px;
+  color: #000;
+  margin-top: 10px;
+  line-height: 1.5;
+}
+.tastebite_footer_right {
+  margin-right: 20px;
+}
+.tastebite_footer_bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 20px;
+  margin-top: 50px;
+}
+.icons {
+  display: flex;
+  justify-content: space-between;
+  width: 150px;
+}
+
+/*Responsive*/
+@media screen and (max-width: 768px) {
+  .tastebite_footer {
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .tastebite_footer_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+  }
+  .tastebite_footer_left img {
+    width: 100px;
+  }
+
+  .tastebite_footer_left p {
+    font-size: 14px;
+    color: #000;
+    margin-top: 10px;
+    line-height: 1.5;
+  }
+  .tastebite_footer_right {
+    margin-right: 20px;
+  }
+  .tastebite_footer_bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+  }
+  .icons {
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+    .tastebite_footer {
+        padding: 20px 0;
+        display: flex;
+        flex-direction: column;
+    }
+    .tastebite_footer_top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 20px;
+    }
+    .tastebite_footer_left img {
+        width: 100px;
+    }
+    
+    .tastebite_footer_left p {
+        font-size: 14px;
+        color: #000;
+        margin-top: 10px;
+        line-height: 1.5;
+    }
+    .tastebite_footer_right {
+        margin-right: 20px;
+    }
+    .tastebite_footer_bottom {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    
+    }
+    .icons {
+        display: flex;
+        justify-content: space-between;
+        width: 150px;
+    }
+    
+}
+
+

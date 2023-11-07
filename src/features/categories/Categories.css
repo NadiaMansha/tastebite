@@ -1,0 +1,49 @@
+.tastebite_categories {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 100px;
+}
+.tastebite_categories_buttons {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.tastebite_categories_buttons button {
+  margin: 0 10px;
+  width: 70px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ff642f;
+  font-size: 12px;
+  font-weight: 300;
+  cursor: pointer;
+  color: #fff;
+}
+.categories{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 20px;
+  box-sizing: border-box;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+
+/*Responsive*/
+@media screen and (max-width: 768px) {
+  .tastebite_categories_buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+  .tastebite_categories_buttons button {
+    margin: 10px 0;
+  }
+}

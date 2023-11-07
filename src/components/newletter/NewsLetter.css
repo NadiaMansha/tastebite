@@ -1,0 +1,93 @@
+.tastebite_newsletter {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+background-color: #ffd7c9;
+margin: 0 30px;
+padding:10px;
+}
+.tastebite_newsletter h1 {
+font-size: 2.5rem;
+font-weight: 700;
+color: #000;
+margin-bottom: 1rem;
+}
+.tastebite_newsletter p {
+font-size: 1.5rem;
+font-weight: 400;
+color: #000;
+margin-bottom: 1rem;
+}
+.tastebite_newsletter form {
+display: flex;
+
+}
+.tastebite_newsletter form input {
+width: 15rem;
+height: 3rem;
+background: #fff;
+border-radius: 5px 0px 0px 5px;
+border: none;
+outline: none;
+padding: 0 1rem;
+margin-bottom: 1rem;
+}
+.tastebite_newsletter form button {
+width: 5rem;
+height: 3rem;
+border: none;
+outline: none;
+border-radius: 0px 5px 5px 0px;
+background-color:  #ff642f;
+color: #fff;
+font-size: 1rem;
+font-weight: 400;
+cursor: pointer;
+}
+.tastebite_newsletter form button:hover {
+background-color: #fff;
+color: #000;
+}
+/*Responsive*/
+@media screen and (max-width: 768px) {
+.tastebite_newsletter {
+margin-top: 30px;
+}
+.tastebite_newsletter h1 {
+font-size: 30px;
+}
+.tastebite_newsletter p {
+font-size: 15px;
+}
+.tastebite_newsletter form input {
+width: 10rem;
+height: 2rem;
+}
+.tastebite_newsletter form button {
+width: 4rem;
+height: 2rem;
+}
+}
+@media screen and (max-width: 480px) {
+.tastebite_newsletter {
+margin: 0;
+margin-top: 30px;
+}
+.tastebite_newsletter h1 {
+font-size: 20px;
+}
+.tastebite_newsletter p {
+font-size: 12px;
+}
+.tastebite_newsletter form input {
+width: 8rem;
+height: 2rem;
+}
+.tastebite_newsletter form button {
+width: 3rem;
+height: 2rem;
+}
+}
+
+
